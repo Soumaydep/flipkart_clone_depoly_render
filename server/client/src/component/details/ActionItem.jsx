@@ -75,7 +75,7 @@ const ActionItem = ({product}) => {
         description: "Test Transaction",
         image: "https://example.com/your_logo",
         order_id: order.id, 
-        callback_url: "/api/paymentVerification",
+        callback_url: "http://localhost:8000/api/paymentVerification",
         prefill: {
             "name": "Gaurav Kumar",
             "email": "gaurav.kumar@example.com",
